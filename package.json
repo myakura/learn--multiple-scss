@@ -1,0 +1,11 @@
+{
+  "name": "multiple-scss-generation",
+  "private": true,
+  "scripts": {
+    "sass": "node-sass --output-style expanded --source-map true --source-map-contents src/ --output build/"
+  },
+  "author": "Masataka Yakura",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
