@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "sass": "node-sass --output-style expanded --source-map true --source-map-contents src/ --output build/",
-    "postcss": "postcss build/*.css --ext post.css --map --dir build/"
+    "postcss": "postcss 'build/!(*.post).css' --ext post.css --dir build/"
   },
   "author": "Masataka Yakura",
   "devDependencies": {
