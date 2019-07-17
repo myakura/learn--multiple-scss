@@ -1,0 +1,23 @@
+.container {
+  // defining grid
+  display: grid;
+  grid-template: 
+    "header header header"
+    "..... content ....."
+    "footer footer footer"
+    / 2em   1fr    2em
+  ;
+
+  .header {
+    grid-area: header;
+  }
+
+  .main {
+    grid-area: content;
+  }
+
+  .footer {
+    grid-area: footer;
+  }
+}
+
