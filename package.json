@@ -3,11 +3,12 @@
   "private": true,
   "scripts": {
     "sass": "node-sass --output-style expanded --source-map true --source-map-contents src/ --output build/",
-    "postcss": "postcss 'build/!(*.post).css' --ext post.css --dir build/"
+    "postcss": "postcss 'build/!(*.dist).css' --ext dist.css --dir build/"
   },
   "author": "Masataka Yakura",
   "devDependencies": {
     "autoprefixer": "^9.6.1",
+    "cssnano": "^4.1.10",
     "node-sass": "^4.12.0",
     "postcss-cli": "^6.1.3"
   }
