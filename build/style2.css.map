@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style2.css",
+	"sources": [
+		"../src/style2.scss"
+	],
+	"sourcesContent": [
+		".container {\n  // defining grid\n  display: grid;\n  grid-template: \n    \"header header header\"\n    \"..... content .....\"\n    \"footer footer footer\"\n    / 2em   1fr    2em\n  ;\n\n  .header {\n    grid-area: header;\n  }\n\n  .main {\n    grid-area: content;\n  }\n\n  .footer {\n    grid-area: footer;\n  }\n}\n\n"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,UAAU,CAAC;EAET,OAAO,EAAE,IAAI;EACb,aAAa,EACX,sFAIF;CAaD;;AArBD,AAUE,UAVQ,CAUR,OAAO,CAAC;EACN,SAAS,EAAE,MAAM;CAClB;;AAZH,AAcE,UAdQ,CAcR,KAAK,CAAC;EACJ,SAAS,EAAE,OAAO;CACnB;;AAhBH,AAkBE,UAlBQ,CAkBR,OAAO,CAAC;EACN,SAAS,EAAE,MAAM;CAClB"
+}

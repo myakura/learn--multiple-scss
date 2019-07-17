@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "style1.css",
+	"sources": [
+		"../src/style1.scss",
+		"../src/mod/_vars.scss"
+	],
+	"sourcesContent": [
+		"@import \"mod/vars\";\n\n.test {\n  font-size: $font-size;\n  color: $color-red;\n}",
+		"$font-size: 12px;\n\n$color-red: #d00;"
+	],
+	"names": [],
+	"mappings": "AAEA,AAAA,KAAK,CAAC;EACJ,SAAS,ECHC,IAAI;EDId,KAAK,ECFK,IAAI;CDGf"
+}
