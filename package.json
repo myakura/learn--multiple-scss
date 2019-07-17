@@ -1,5 +1,5 @@
 {
-  "name": "multiple-scss-generation",
+  "name": "multiple-scss",
   "private": true,
   "scripts": {
     "sass": "node-sass --output-style expanded --source-map true --source-map-contents src/ --output build/",
